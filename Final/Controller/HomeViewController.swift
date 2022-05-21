@@ -33,6 +33,7 @@ class HomeViewController: UIViewController {
         .init(id: "2", name: "Artichoke & aubergine rice", description: "As well as being tasty, this aubergine and artichoke is low fat, low calorie and cost effective. Make a large batch and eat it cold the next day", calories: "212", image: UIImage(imageLiteralResourceName: "images")),
         .init(id: "2", name: "Spanish rice & prawn one-pot", description: "A fast and easy meal filled with Mediterranean holiday flavours", calories: "122", image: UIImage(imageLiteralResourceName: "images")),
         .init(id: "2", name: "Quick beef & broccoli one-pot", description: "The most delicious beef and broccoli meal in one pot, fast! Contains 2 of your 5-a-day", calories: "102", image: UIImage(imageLiteralResourceName: "images"))
+
        ]
  
     override func viewDidLoad() {

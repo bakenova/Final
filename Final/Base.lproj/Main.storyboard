@@ -287,7 +287,7 @@
             </objects>
             <point key="canvasLocation" x="-1683" y="80"/>
         </scene>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="eQi-er-6ku">
             <objects>
                 <viewController id="c9p-zA-fsO" sceneMemberID="viewController">
@@ -297,7 +297,7 @@
                         <viewLayoutGuide key="safeArea" id="RDX-uj-uUx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Jsl-rq-oZn"/>
+                    <tabBarItem key="tabBarItem" title="" image="Search" id="Jsl-rq-oZn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NNn-WI-a8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -319,21 +319,24 @@
             </objects>
             <point key="canvasLocation" x="131" y="626"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="7Rb-BE-XY0">
             <objects>
                 <viewController id="N4l-E5-sES" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zG3-ep-yCI">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="673"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="xBC-P2-nsp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="Profile" id="f96-gK-Lex"/>
+                  
+                    <navigationItem key="navigationItem" title="Profile" id="br0-2x-oR7">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="hyt-cO-OWV"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHq-Ej-Ymo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131" y="1327"/>
+            <point key="canvasLocation" x="1023" y="641"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Siw-8m-7vP">
@@ -345,10 +348,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="c9p-zA-fsO" kind="relationship" relationship="viewControllers" id="SC3-yc-R15"/>
-                        <segue destination="8Fg-gi-xoO" kind="relationship" relationship="viewControllers" id="TZd-ps-gij"/>
-                        <segue destination="N4l-E5-sES" kind="relationship" relationship="viewControllers" id="WdR-PG-NZY"/>
                         <segue destination="Yrb-PN-eqC" kind="relationship" relationship="viewControllers" id="ZOr-eY-Gss"/>
+                        <segue destination="c9p-zA-fsO" kind="relationship" relationship="viewControllers" id="SC3-yc-R15"/>
+                        <segue destination="TSU-6S-7wy" kind="relationship" relationship="viewControllers" id="WdR-PG-NZY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZd-8D-pHJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -778,18 +780,22 @@
                                                     <color key="NSColor" systemColor="systemGrayColor"/>
                                                     <font key="NSFont" metaFont="system" size="15"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jr-Ip-X9e">
+
                                         <rect key="frame" x="0.0" y="304.33333333333331" width="358" height="50"/>
+
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="N5J-gN-wkp"/>
                                         </constraints>
                                         <state key="normal" title="Read">
+
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -837,6 +843,7 @@
                             <constraint firstItem="EEZ-mj-Mmt" firstAttribute="top" secondItem="on8-Cc-oiK" secondAttribute="top" constant="194" id="qHG-AJ-Pz9"/>
                             <constraint firstItem="EEZ-mj-Mmt" firstAttribute="trailing" secondItem="oq6-P8-JmQ" secondAttribute="trailing" id="rN2-Os-QAH"/>
                             <constraint firstItem="b8A-pG-MQA" firstAttribute="trailing" secondItem="k6r-KY-JAB" secondAttribute="trailing" constant="-150" id="xBx-1k-lhg"/>
+
                             <constraint firstItem="k6r-KY-JAB" firstAttribute="trailing" secondItem="oq6-P8-JmQ" secondAttribute="trailing" constant="16" id="y1a-hy-Lr2"/>
                             <constraint firstItem="b8A-pG-MQA" firstAttribute="leading" secondItem="k6r-KY-JAB" secondAttribute="leading" id="zjV-sO-Fbz"/>
                         </constraints>
@@ -890,6 +897,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yrb-PN-eqC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Qc3-94-nLb"/>
+
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="pfq-6b-l9P"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ttW-Y3-rR4">
@@ -907,6 +915,7 @@
         </scene>
     </scenes>
     <resources>
+
         <image name="Logo" width="16" height="16"/>
         <image name="Message" width="20.333333969116211" height="20"/>
         <image name="Password" width="20" height="20"/>
@@ -924,6 +933,7 @@
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -933,5 +943,6 @@
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+
     </resources>
 </document>

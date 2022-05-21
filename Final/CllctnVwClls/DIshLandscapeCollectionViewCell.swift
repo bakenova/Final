@@ -21,6 +21,7 @@ class DIshLandscapeCollectionViewCell: UICollectionViewCell {
             titleLbl.text = dish.name
             descriptionLbl.text = dish.description
             caloriesLbl.text = dish.calories
+
         }
  
     override func awakeFromNib() {
@@ -37,5 +38,6 @@ struct Dish {
 //    var formattedCalories: String {
 //        return "\(calories ?? 0) calories"
 //    }
+
 }
  
