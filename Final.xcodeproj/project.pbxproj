@@ -13,6 +13,20 @@
 		AD50A5B92838503800644B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5B72838503800644B50 /* Main.storyboard */; };
 		AD50A5BB2838503A00644B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5BA2838503A00644B50 /* Assets.xcassets */; };
 		AD50A5BE2838503A00644B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5BC2838503A00644B50 /* LaunchScreen.storyboard */; };
+		AD50A5C928385BDB00644B50 /* video5206550645464635064.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5C828385BDB00644B50 /* video5206550645464635064.mp4 */; };
+		AD50A5D7283861E200644B50 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5D6283861E200644B50 /* SignInViewController.swift */; };
+		AD50A5D9283861F700644B50 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5D8283861F700644B50 /* SignUpViewController.swift */; };
+		AD50A5DB2838620900644B50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5DA2838620900644B50 /* MainViewController.swift */; };
+		AD50A5E0283864AB00644B50 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5DF283864AB00644B50 /* DishDetailViewController.swift */; };
+		AD50A5E4283865DE00644B50 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */; };
+		AD50A5E5283865DE00644B50 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5E3283865DE00644B50 /* CategoryCollectionViewCell.xib */; };
+		AD50A5E82838677100644B50 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5E62838677100644B50 /* DishPortraitCollectionViewCell.swift */; };
+		AD50A5E92838677100644B50 /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5E72838677100644B50 /* DishPortraitCollectionViewCell.xib */; };
+		AD50A5EC283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */; };
+		AD50A5ED283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */; };
+		AD50A5F12838680E00644B50 /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5EF2838680E00644B50 /* DishListTableViewCell.swift */; };
+		AD50A5F22838680E00644B50 /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5F02838680E00644B50 /* DishListTableViewCell.xib */; };
+		AD50A5F4283868AB00644B50 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5F3283868AB00644B50 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		AD50A5BA2838503A00644B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD50A5BD2838503A00644B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD50A5BF2838503A00644B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD50A5C828385BDB00644B50 /* video5206550645464635064.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5206550645464635064.mp4; sourceTree = "<group>"; };
+		AD50A5D6283861E200644B50 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		AD50A5D8283861F700644B50 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AD50A5DA2838620900644B50 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AD50A5DF283864AB00644B50 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD50A5E3283865DE00644B50 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD50A5E62838677100644B50 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD50A5E72838677100644B50 /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIshLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIshLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD50A5EF2838680E00644B50 /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
+		AD50A5F02838680E00644B50 /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
+		AD50A5F3283868AB00644B50 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,69 @@
 		AD50A5B02838503800644B50 /* Final */ = {
 			isa = PBXGroup;
 			children = (
+				AD50A5EE283867E000644B50 /* CstmVws */,
+				AD50A5E12838654F00644B50 /* CllctnVwClls */,
+				AD50A5DE2838646C00644B50 /* views */,
+				AD50A5C728385BAD00644B50 /* Video */,
 				AD50A5B12838503800644B50 /* AppDelegate.swift */,
 				AD50A5B32838503800644B50 /* SceneDelegate.swift */,
-				AD50A5B52838503800644B50 /* ViewController.swift */,
+				AD50A5D5283861CA00644B50 /* Controller */,
 				AD50A5B72838503800644B50 /* Main.storyboard */,
 				AD50A5BA2838503A00644B50 /* Assets.xcassets */,
 				AD50A5BC2838503A00644B50 /* LaunchScreen.storyboard */,
 				AD50A5BF2838503A00644B50 /* Info.plist */,
 			);
 			path = Final;
+			sourceTree = "<group>";
+		};
+		AD50A5C728385BAD00644B50 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				AD50A5C828385BDB00644B50 /* video5206550645464635064.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		AD50A5D5283861CA00644B50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD50A5B52838503800644B50 /* ViewController.swift */,
+				AD50A5D6283861E200644B50 /* SignInViewController.swift */,
+				AD50A5D8283861F700644B50 /* SignUpViewController.swift */,
+				AD50A5DA2838620900644B50 /* MainViewController.swift */,
+				AD50A5F3283868AB00644B50 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AD50A5DE2838646C00644B50 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AD50A5DF283864AB00644B50 /* DishDetailViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AD50A5E12838654F00644B50 /* CllctnVwClls */ = {
+			isa = PBXGroup;
+			children = (
+				AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */,
+				AD50A5E3283865DE00644B50 /* CategoryCollectionViewCell.xib */,
+				AD50A5E62838677100644B50 /* DishPortraitCollectionViewCell.swift */,
+				AD50A5E72838677100644B50 /* DishPortraitCollectionViewCell.xib */,
+				AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */,
+				AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */,
+			);
+			path = CllctnVwClls;
+			sourceTree = "<group>";
+		};
+		AD50A5EE283867E000644B50 /* CstmVws */ = {
+			isa = PBXGroup;
+			children = (
+				AD50A5EF2838680E00644B50 /* DishListTableViewCell.swift */,
+				AD50A5F02838680E00644B50 /* DishListTableViewCell.xib */,
+			);
+			path = CstmVws;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +207,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD50A5BE2838503A00644B50 /* LaunchScreen.storyboard in Resources */,
+				AD50A5F22838680E00644B50 /* DishListTableViewCell.xib in Resources */,
+				AD50A5E92838677100644B50 /* DishPortraitCollectionViewCell.xib in Resources */,
+				AD50A5E5283865DE00644B50 /* CategoryCollectionViewCell.xib in Resources */,
 				AD50A5BB2838503A00644B50 /* Assets.xcassets in Resources */,
+				AD50A5C928385BDB00644B50 /* video5206550645464635064.mp4 in Resources */,
 				AD50A5B92838503800644B50 /* Main.storyboard in Resources */,
+				AD50A5ED283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +224,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD50A5EC283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift in Sources */,
+				AD50A5E4283865DE00644B50 /* CategoryCollectionViewCell.swift in Sources */,
+				AD50A5D7283861E200644B50 /* SignInViewController.swift in Sources */,
+				AD50A5E0283864AB00644B50 /* DishDetailViewController.swift in Sources */,
 				AD50A5B62838503800644B50 /* ViewController.swift in Sources */,
 				AD50A5B22838503800644B50 /* AppDelegate.swift in Sources */,
+				AD50A5DB2838620900644B50 /* MainViewController.swift in Sources */,
 				AD50A5B42838503800644B50 /* SceneDelegate.swift in Sources */,
+				AD50A5F12838680E00644B50 /* DishListTableViewCell.swift in Sources */,
+				AD50A5D9283861F700644B50 /* SignUpViewController.swift in Sources */,
+				AD50A5E82838677100644B50 /* DishPortraitCollectionViewCell.swift in Sources */,
+				AD50A5F4283868AB00644B50 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
