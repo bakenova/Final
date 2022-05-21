@@ -805,16 +805,16 @@
             </objects>
             <point key="canvasLocation" x="-4322" y="80"/>
         </scene>
-        <!--kus'-kus'-->
+        <!--MangaWay-->
         <scene sceneID="9J9-a3-ZdT">
             <objects>
                 <viewController storyboardIdentifier="Home" id="5kR-6x-E7u" customClass="HomeViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mTR-aj-Aws">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="673"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rp7-hN-ld0">
-                                <rect key="frame" x="0.0" y="88" width="390" height="673"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="673"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j7e-S7-RBT">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="726"/>
@@ -828,7 +828,7 @@
                                                             <constraint firstAttribute="height" constant="24" id="npl-73-GgI"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MhM-o6-HKD">
@@ -850,7 +850,7 @@
                                                         </connections>
                                                     </collectionView>
                                                 </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.97142088140000005" green="0.93827661979999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="MhM-o6-HKD" secondAttribute="bottom" id="14I-wa-ZM9"/>
                                                     <constraint firstAttribute="trailing" secondItem="7yl-D6-vNG" secondAttribute="trailing" constant="16" id="40g-tc-pbV"/>
@@ -870,7 +870,7 @@
                                                             <constraint firstAttribute="height" constant="24" id="rIb-rV-0ky"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="w0r-Sj-xKH">
@@ -892,7 +892,7 @@
                                                         </connections>
                                                     </collectionView>
                                                 </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.97142088140000005" green="0.93827661979999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="w0r-Sj-xKH" secondAttribute="trailing" id="H7Q-kw-Yud"/>
                                                     <constraint firstAttribute="bottom" secondItem="w0r-Sj-xKH" secondAttribute="bottom" id="S2k-Hf-smh"/>
@@ -912,7 +912,7 @@
                                                             <constraint firstAttribute="height" constant="24" id="Ijn-Kr-o8F"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pOE-z7-rip">
@@ -930,7 +930,7 @@
                                                         <cells/>
                                                     </collectionView>
                                                 </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" red="0.97142088140000005" green="0.93827661979999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="QnX-b8-Uri" firstAttribute="leading" secondItem="Yhf-nP-9AR" secondAttribute="leading" constant="16" id="0zY-cK-mTg"/>
                                                     <constraint firstItem="QnX-b8-Uri" firstAttribute="top" secondItem="Yhf-nP-9AR" secondAttribute="top" constant="16" id="2Xf-tg-Z0m"/>
@@ -956,7 +956,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zxy-Kv-ou8"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.97142088140542238" green="0.9382766197885104" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Rp7-hN-ld0" firstAttribute="leading" secondItem="zxy-Kv-ou8" secondAttribute="leading" id="BSY-BL-ebm"/>
                             <constraint firstItem="Rp7-hN-ld0" firstAttribute="trailing" secondItem="zxy-Kv-ou8" secondAttribute="trailing" id="J67-Af-rGp"/>
@@ -964,11 +964,7 @@
                             <constraint firstAttribute="bottom" secondItem="Rp7-hN-ld0" secondAttribute="bottom" id="ihF-20-jKr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="kus'-kus'" id="BZy-LH-3Fc">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="arrow.up.and.person.rectangle.portrait" catalog="system" id="B5x-ec-bb8">
-                            <color key="tintColor" systemColor="labelColor"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="MangaWay" id="BZy-LH-3Fc"/>
                     <connections>
                         <outlet property="categoryCollectionView" destination="MhM-o6-HKD" id="bmy-pY-Hlx"/>
                         <outlet property="popularCollectionView" destination="w0r-Sj-xKH" id="Pfr-3W-qNr"/>
@@ -1143,7 +1139,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Home" id="Qc3-94-nLb"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="pfq-6b-l9P"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ttW-Y3-rR4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ttW-Y3-rR4">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1186,13 +1182,9 @@
         <image name="Search" width="40" height="40"/>
         <image name="SearchOutline" width="20" height="20"/>
         <image name="Show" width="20" height="20"/>
-        <image name="arrow.up.and.person.rectangle.portrait" catalog="system" width="128" height="100"/>
         <image name="arrowLeft" width="24" height="24"/>
         <image name="hinata" width="1280" height="1280"/>
         <image name="rengoku" width="1080" height="1920"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
