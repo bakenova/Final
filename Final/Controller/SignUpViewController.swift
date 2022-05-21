@@ -6,13 +6,20 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseDatabase
 
 class SignUpViewController: UIViewController {
 
     @IBOutlet weak var emailTF: TextFieldPadding!
     @IBOutlet weak var passwordTF: TextFieldPadding!
+    @IBOutlet weak var usernameTF: TextFieldPadding!
+    @IBOutlet weak var ageTF: UITextField!
     @IBOutlet weak var existLabel: UILabel!
     @IBOutlet weak var hiddenConstraint: NSLayoutConstraint!
+    
+    let database = Database.database().reference()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         existLabel.isHidden = true
@@ -32,8 +39,37 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signUpPressed(_ sender: Any) {
-        existLabel.isHidden = false
-        hiddenConstraint.constant = 70
+        /*
+        guard let email = emailTF.text, !email.isEmpty,
+              let password = passwordTF.text, !password.isEmpty else {
+            let alert = UIAlertController(title: "The field is empty", message: "Please, fill the field", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler:{_ in}))
+            
+            present(alert, animated: true)
+            print("The field is empty!")
+            return
+        }
+        
+        let object: [String: Any] = [
+            "email": emailTF.text!,
+            "name": usernameTF.text!,
+            "age": ageTF.text!
+        ]
+        database.child("users").child("user_\(Int.random(in:0..<100))").setValue(object)
+        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password, completion: {result, error in
+            guard error == nil else {
+            print("User creation failed")
+                let registerVC = self.storyboard?.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
+                self.present(registerVC, animated: true, completion: nil)
+            return
+            }
+            print("User has been sent to RegisterViewController")
+            
+            let tableVC = self.storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! TabViewController
+            tableVC.modalPresentationStyle = .fullScreen
+            self.present(tableVC, animated: true, completion: nil)
+        })
+ */
     }
     /*
     // MARK: - Navigation
