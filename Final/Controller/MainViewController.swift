@@ -9,10 +9,22 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var nextPressed: UIButton!
+    
+    @IBAction func nextButtonPressed(_ sender: Any) {
+        let signUpVC = storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
+                
+        signUpVC.modalPresentationStyle = .fullScreen
+        //signUpVC.modalTransitionStyle = .crossDissolve
+        
+        present(signUpVC, animated: true, completion: nil)
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nextPressed.layer.cornerRadius = 28.0
     }
     
 

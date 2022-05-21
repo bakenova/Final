@@ -38,6 +38,15 @@ class ViewController: UIViewController {
  
         player?.seek(to: CMTime.zero)
         player?.play()
+        
+        
     }
  
+    func openPressed() {
+        let mainVC = storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+                
+        mainVC.modalPresentationStyle = .overFullScreen
+        
+        present(mainVC, animated: true, completion: nil)
+    }
 }

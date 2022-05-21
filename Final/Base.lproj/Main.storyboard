@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rWu-2A-64H">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -12,7 +12,7 @@
         <!--Main View Controller-->
         <scene sceneID="lje-4B-BDW">
             <objects>
-                <viewController id="OYo-LI-kWe" customClass="MainViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="OYo-LI-kWe" customClass="MainViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="06r-Yw-AUt">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,6 +30,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="OYo-LI-kWe" eventType="touchUpInside" id="YVk-Wx-Dmg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register now and enjoy reading your favorite manga" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvY-TH-dYI">
                                 <rect key="frame" x="50" y="645.66666666666663" width="290" height="38.333333333333371"/>
@@ -62,6 +65,9 @@
                             <constraint firstItem="0p4-os-OQZ" firstAttribute="trailing" secondItem="mLj-Ff-hlN" secondAttribute="trailing" constant="24" id="ywa-hI-09p"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nextPressed" destination="nss-ux-aNx" id="Iee-Wr-QVT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ee7-Ic-ryi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,7 +107,7 @@
                                 <color key="textColor" red="0.066666666669999999" green="0.094117647060000004" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-hT-Cbu" customClass="TextFieldWithPadding" customModule="Final" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-hT-Cbu" customClass="TextFieldPadding" customModule="Final" customModuleProvider="target">
                                 <rect key="frame" x="24" y="263.33333333333331" width="342" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="RBn-yL-ABT"/>
@@ -115,7 +121,7 @@
                                 <color key="textColor" red="0.066666666669999999" green="0.094117647060000004" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVt-IT-Psl" customClass="TextFieldWithPadding" customModule="Final" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVt-IT-Psl" customClass="TextFieldPadding" customModule="Final" customModuleProvider="target">
                                 <rect key="frame" x="24" y="352.33333333333331" width="342" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="cKU-2X-CnD"/>
@@ -296,7 +302,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="673"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2IG-SB-NvM" customClass="TextFieldWithPadding" customModule="Final" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2IG-SB-NvM" customClass="TextFieldPadding" customModule="Final" customModuleProvider="target">
                                 <rect key="frame" x="24" y="24" width="270" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="4So-GF-JD5"/>
@@ -521,7 +527,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="GGb-cr-fFA">
             <objects>
-                <viewController id="qhn-aT-oBr" customClass="SignUpViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" id="qhn-aT-oBr" customClass="SignUpViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xFy-Zy-Oir">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -533,6 +539,9 @@
                                     <constraint firstAttribute="width" constant="40" id="Gqq-M3-FAV"/>
                                 </constraints>
                                 <state key="normal" image="arrowLeft"/>
+                                <connections>
+                                    <action selector="backArrowPressed:" destination="qhn-aT-oBr" eventType="touchUpInside" id="j1y-5C-SkT"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHN-th-LB6">
                                 <rect key="frame" x="24" y="132" width="342" height="36"/>
@@ -552,7 +561,7 @@
                                 <color key="textColor" red="0.066666666669999999" green="0.094117647060000004" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Us-Xf-RVz" customClass="TextFieldWithPadding" customModule="Final" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Us-Xf-RVz" customClass="TextFieldPadding" customModule="Final" customModuleProvider="target">
                                 <rect key="frame" x="24" y="245.33333333333337" width="342" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="cbD-PM-Z2Y"/>
@@ -566,7 +575,7 @@
                                 <color key="textColor" red="0.066666666669999999" green="0.094117647060000004" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P5A-Ii-7qR" customClass="TextFieldWithPadding" customModule="Final" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P5A-Ii-7qR" customClass="TextFieldPadding" customModule="Final" customModuleProvider="target">
                                 <rect key="frame" x="24" y="334.33333333333331" width="342" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="IWb-u5-hzA"/>
@@ -601,7 +610,7 @@
                                 <color key="textColor" red="0.066666666669999999" green="0.094117647060000004" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gmu-b0-8zk" customClass="TextFieldWithPadding" customModule="Final" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gmu-b0-8zk" customClass="TextFieldPadding" customModule="Final" customModuleProvider="target">
                                 <rect key="frame" x="24" y="423.33333333333331" width="342" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="0BS-tG-f2A"/>
@@ -633,6 +642,9 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpPressed:" destination="qhn-aT-oBr" eventType="touchUpInside" id="SAK-jX-Hbg"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y3B-KG-EAQ">
                                 <rect key="frame" x="102.00000000000001" y="599.33333333333337" width="186.33333333333337" height="29"/>
@@ -653,7 +665,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User already exists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ni6-Rd-XFB">
-                                <rect key="frame" x="24" y="510.33333333333326" width="342" height="17"/>
+                                <rect key="frame" x="24" y="496.33333333333331" width="342" height="16.999999999999943"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="1" green="0.25098039220000001" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -665,7 +677,7 @@
                             <constraint firstItem="Y3B-KG-EAQ" firstAttribute="top" secondItem="jzy-wT-PkC" secondAttribute="bottom" constant="24" id="0E8-9m-hr7"/>
                             <constraint firstItem="Gmu-b0-8zk" firstAttribute="leading" secondItem="PJm-0e-Uuf" secondAttribute="leading" constant="24" id="2lw-Nk-lZt"/>
                             <constraint firstItem="gmT-si-uW2" firstAttribute="leading" secondItem="PJm-0e-Uuf" secondAttribute="leading" constant="24" id="3ql-9D-9ho"/>
-                            <constraint firstItem="Ni6-Rd-XFB" firstAttribute="top" secondItem="Gmu-b0-8zk" secondAttribute="bottom" priority="250" constant="31" id="4wg-bG-HFo"/>
+                            <constraint firstItem="Ni6-Rd-XFB" firstAttribute="top" secondItem="Gmu-b0-8zk" secondAttribute="bottom" priority="250" constant="17" id="4wg-bG-HFo"/>
                             <constraint firstItem="gJz-BP-Ivv" firstAttribute="leading" secondItem="PJm-0e-Uuf" secondAttribute="leading" constant="24" id="5bl-h9-glE"/>
                             <constraint firstItem="isr-DJ-Tc8" firstAttribute="top" secondItem="gJz-BP-Ivv" secondAttribute="bottom" constant="4" id="7on-o1-2Jr"/>
                             <constraint firstItem="PJm-0e-Uuf" firstAttribute="trailing" secondItem="6Us-Xf-RVz" secondAttribute="trailing" constant="24" id="7xk-Wa-Lwg"/>
@@ -710,6 +722,12 @@
                             <constraint firstItem="Gmu-b0-8zk" firstAttribute="top" secondItem="gJz-BP-Ivv" secondAttribute="bottom" constant="4" id="zi2-uO-qK3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTF" destination="6Us-Xf-RVz" id="2BU-Uv-NRM"/>
+                        <outlet property="existLabel" destination="Ni6-Rd-XFB" id="1tq-cu-Mpd"/>
+                        <outlet property="hiddenConstraint" destination="sK0-hg-x02" id="Bec-1u-JiH"/>
+                        <outlet property="passwordTF" destination="P5A-Ii-7qR" id="alV-OC-3aJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0tg-tt-3hK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
