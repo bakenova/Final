@@ -34,6 +34,7 @@ struct Dish {
     let id, name, description: String?
     let calories: String?
     let image: UIImage
+    let genre: String?
     
 //    var formattedCalories: String {
 //        return "\(calories ?? 0) calories"

@@ -15,6 +15,7 @@ class DishDetailViewController: UIViewController {
     @IBOutlet weak var descriptionLbl: UILabel!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var dplaceOrder: UIButton!
+    @IBOutlet weak var genre: UILabel!
     
     var dish: Dish! 
  
@@ -29,7 +30,7 @@ class DishDetailViewController: UIViewController {
         titleLbl.text = dish.name
         descriptionLbl.text = dish.description
         caloriesLbl.text = dish.calories
-
+        genre.text = dish.genre
     }
     
     @IBAction func BtnClicked(_ sender: UIBarButtonItem) {
@@ -38,6 +39,17 @@ class DishDetailViewController: UIViewController {
         alert.addAction(Ok)
         present(alert, animated: true, completion: nil)
     }
+    
+//    @IBAction func readManga(_ sender: Any) {
+//        let customURL = "https://mangax1.com/wp-content/uploads/WP-manga/data/4123/8fe1f2e455ff223c81a6441733982773/1.jpgck://"
+//        if let url = URL(string: customURL){
+//            if UIApplication.shared.canOpenURL(url){
+//                UIApplication.shared.open(url)
+//            }else{
+//                print("error")
+//            }
+//        }
+//    }
     
  
 }
