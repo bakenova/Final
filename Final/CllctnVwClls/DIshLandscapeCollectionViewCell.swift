@@ -20,7 +20,8 @@ class DIshLandscapeCollectionViewCell: UICollectionViewCell {
             dishImageView.image = dish.image
             titleLbl.text = dish.name
             descriptionLbl.text = dish.description
-            caloriesLbl.text = dish.formattedCalories
+            caloriesLbl.text = dish.calories
+
         }
  
     override func awakeFromNib() {
@@ -31,11 +32,12 @@ class DIshLandscapeCollectionViewCell: UICollectionViewCell {
 }
 struct Dish {
     let id, name, description: String?
-    let calories: Int?
+    let calories: String?
     let image: UIImage
     
-    var formattedCalories: String {
-        return "\(calories ?? 0) calories"
-    }
+//    var formattedCalories: String {
+//        return "\(calories ?? 0) calories"
+//    }
+
 }
  

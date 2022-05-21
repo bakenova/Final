@@ -19,7 +19,8 @@ class DishPortraitCollectionViewCell: UICollectionViewCell {
        func setup(dish: Dish) { 
            titleLbl.text = dish.name
         dishImageView.image = dish.image
-           caloriesLbl.text = dish.formattedCalories
+           caloriesLbl.text = dish.calories
+
            descriptionLbl.text = dish.description
        }
     

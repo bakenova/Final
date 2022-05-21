@@ -22,17 +22,18 @@ class HomeViewController: UIViewController {
        ]
        
        var populars: [Dish] = [
-        .init(id: "2", name: "Tuna, caper & chilli spaghetti", description: "Our best ever spaghetti bolognese is super easy and a true Italian classic with a meaty, chilli sauce. ", calories: 125, image: UIImage(imageLiteralResourceName: "images")),
-        .init(id: "2", name: "Mozzarella with tomato & chilli salsa", description: "Perk up mozzarella and tomato salad with chilli salsa", calories: 212, image: UIImage(imageLiteralResourceName: "images")),
-        .init(id: "2", name: "Tomato & mascarpone risotto", description: "Enjoy a comforting bowl of risotto with tomato and mascarpone. It's perfect for a Valentine's menu, or a special midweek meal", calories: 12, image: UIImage(imageLiteralResourceName: "images")),
-        .init(id: "2", name: "Chicken pasta bake", description: "Enjoy this gooey cheese and chicken pasta bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad ", calories: 102, image: UIImage(imageLiteralResourceName: "images"))
+        .init(id: "2", name: "The Knight Of Embers", description: "His only family, his younger twin, has been murdered. He isn't as talented as his late genius brother, but in order to get his revenge, he will become strong. Will I be able to get my revenge?", calories: "Status: Ongoing Genres :    Action - Adventure - Fantasy", image: UIImage(imageLiteralResourceName: "The Knight Of Embers")),
+        .init(id: "2", name: "Locker Opener", description: "In front of detective Dobin Kim, who has the ability to ‘open’ anything, a criminal ‘locker’ who ‘locks’ anything appears. The ‘opener’ struggles to catch the ‘locker’ in front of the important truth, one-of-a-kind relationship, and ‘locked up’ of a genius talent helplessly…!", calories: "Status : Ongoing      Genres: Drama", image: UIImage(imageLiteralResourceName: "Locker Opener")),
+        .init(id: "2", name: "The World After the Fall", description: "Humans were suddenly summoned to become “Walkers”, and they needed to clear the tower to save the world. Then, the “Regression Stone” was discovered. Walkers could now “return” to the past. And slowly… everyone left. Humanity's last hope, “Carpe Diem”, was formed by people who refused to abandon the world. But once the last Walker reached floor 100, he no longer knew what to believe. This is the tale of the only man who didn't regress, despite everyone else going back to the past.", calories: "Status : Ongoing      Genres : Action, Adventure, Drama, Fantasy, Manhwa, Webtoons", image: UIImage(imageLiteralResourceName: "The World After the Fall")),
+        .init(id: "2", name: "Chicken pasta bake", description: "Enjoy this gooey cheese and chicken pasta bake for the ultimate weekday family dinner. Serve straight from the dish with a dressed green salad ", calories: "102", image: UIImage(imageLiteralResourceName: "images"))
        ]
        
        var specials: [Dish] = [
-        .init(id: "2", name: "Herby fish fingers with Chinese-style rice", description: "This healthy, gluten-free lunch or dinner supplies a balance of carbs and protein, making it perfect for refuelling after exercise", calories: 12, image: UIImage(imageLiteralResourceName: "images")),
-        .init(id: "2", name: "Artichoke & aubergine rice", description: "As well as being tasty, this aubergine and artichoke is low fat, low calorie and cost effective. Make a large batch and eat it cold the next day", calories: 212, image: UIImage(imageLiteralResourceName: "images")),
-        .init(id: "2", name: "Spanish rice & prawn one-pot", description: "A fast and easy meal filled with Mediterranean holiday flavours", calories: 122, image: UIImage(imageLiteralResourceName: "images")),
-        .init(id: "2", name: "Quick beef & broccoli one-pot", description: "The most delicious beef and broccoli meal in one pot, fast! Contains 2 of your 5-a-day", calories: 102, image: UIImage(imageLiteralResourceName: "images"))
+        .init(id: "2", name: "Herby fish fingers with Chinese-style rice", description: "This healthy, gluten-free lunch or dinner supplies a balance of carbs and protein, making it perfect for refuelling after exercise", calories: "12", image: UIImage(imageLiteralResourceName: "images")),
+        .init(id: "2", name: "Artichoke & aubergine rice", description: "As well as being tasty, this aubergine and artichoke is low fat, low calorie and cost effective. Make a large batch and eat it cold the next day", calories: "212", image: UIImage(imageLiteralResourceName: "images")),
+        .init(id: "2", name: "Spanish rice & prawn one-pot", description: "A fast and easy meal filled with Mediterranean holiday flavours", calories: "122", image: UIImage(imageLiteralResourceName: "images")),
+        .init(id: "2", name: "Quick beef & broccoli one-pot", description: "The most delicious beef and broccoli meal in one pot, fast! Contains 2 of your 5-a-day", calories: "102", image: UIImage(imageLiteralResourceName: "images"))
+
        ]
  
     override func viewDidLoad() {
