@@ -23,6 +23,14 @@ class SignUpViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func signInPressed(_ sender: Any) {
+        let signinVC = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+        
+        signinVC.modalPresentationStyle = .fullScreen
+        
+        present(signinVC, animated: true, completion: nil)
+    }
+    
     @IBAction func signUpPressed(_ sender: Any) {
         existLabel.isHidden = false
         hiddenConstraint.constant = 70

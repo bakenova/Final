@@ -9,13 +9,19 @@ import UIKit
 
 class SearchViewController: UIViewController {
 
+    @IBOutlet weak var searchTF: TextFieldPadding!
+    @IBOutlet weak var collView: UICollectionView!
+    @IBOutlet weak var tableview: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func searchPressed(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 

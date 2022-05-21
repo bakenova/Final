@@ -9,13 +9,29 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var emailTF: TextFieldPadding!
+    @IBOutlet weak var passwordTF: TextFieldPadding!
+    @IBOutlet weak var warningLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        warningLbl.isHidden = true
     }
     
-//
+    @IBAction func backArrowPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func signUpPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func logInPressed(_ sender: Any) {
+    }
+    
+    
+    
+    //
     /*
     // MARK: - Navigation
 
