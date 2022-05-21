@@ -28,7 +28,7 @@ class DishDetailViewController: UIViewController {
         dishImageView.image = dish.image
         titleLbl.text = dish.name
         descriptionLbl.text = dish.description
-        caloriesLbl.text = dish.formattedCalories
+        caloriesLbl.text = dish.calories
     }
     
     @IBAction func BtnClicked(_ sender: UIBarButtonItem) {
