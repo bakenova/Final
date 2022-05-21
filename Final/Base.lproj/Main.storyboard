@@ -303,22 +303,6 @@
             </objects>
             <point key="canvasLocation" x="131" y="-46"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="Esd-Kp-Rp4">
-            <objects>
-                <viewController id="8Fg-gi-xoO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TfG-5f-ag8">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="761"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="y2X-2E-SGK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GWn-Uz-IoX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JEg-Ku-lwQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="131" y="626"/>
-        </scene>
         <!--Profile-->
         <scene sceneID="7Rb-BE-XY0">
             <objects>
@@ -329,14 +313,13 @@
                         <viewLayoutGuide key="safeArea" id="xBC-P2-nsp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                  
                     <navigationItem key="navigationItem" title="Profile" id="br0-2x-oR7">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="hyt-cO-OWV"/>
+                        <barButtonItem key="rightBarButtonItem" image="Bookmark" id="hyt-cO-OWV"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHq-Ej-Ymo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1023" y="641"/>
+            <point key="canvasLocation" x="994" y="648"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Siw-8m-7vP">
@@ -350,7 +333,7 @@
                     <connections>
                         <segue destination="Yrb-PN-eqC" kind="relationship" relationship="viewControllers" id="ZOr-eY-Gss"/>
                         <segue destination="c9p-zA-fsO" kind="relationship" relationship="viewControllers" id="SC3-yc-R15"/>
-                        <segue destination="TSU-6S-7wy" kind="relationship" relationship="viewControllers" id="WdR-PG-NZY"/>
+                        <segue destination="iLr-fg-Nkt" kind="relationship" relationship="viewControllers" id="2RF-jx-PSF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZd-8D-pHJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -581,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4417" y="80"/>
+            <point key="canvasLocation" x="-4322" y="80"/>
         </scene>
         <!--kus'-kus'-->
         <scene sceneID="9J9-a3-ZdT">
@@ -780,22 +763,18 @@
                                                     <color key="NSColor" systemColor="systemGrayColor"/>
                                                     <font key="NSFont" metaFont="system" size="15"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jr-Ip-X9e">
-
                                         <rect key="frame" x="0.0" y="304.33333333333331" width="358" height="50"/>
-
                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="N5J-gN-wkp"/>
                                         </constraints>
                                         <state key="normal" title="Read">
-
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -843,7 +822,6 @@
                             <constraint firstItem="EEZ-mj-Mmt" firstAttribute="top" secondItem="on8-Cc-oiK" secondAttribute="top" constant="194" id="qHG-AJ-Pz9"/>
                             <constraint firstItem="EEZ-mj-Mmt" firstAttribute="trailing" secondItem="oq6-P8-JmQ" secondAttribute="trailing" id="rN2-Os-QAH"/>
                             <constraint firstItem="b8A-pG-MQA" firstAttribute="trailing" secondItem="k6r-KY-JAB" secondAttribute="trailing" constant="-150" id="xBx-1k-lhg"/>
-
                             <constraint firstItem="k6r-KY-JAB" firstAttribute="trailing" secondItem="oq6-P8-JmQ" secondAttribute="trailing" constant="16" id="y1a-hy-Lr2"/>
                             <constraint firstItem="b8A-pG-MQA" firstAttribute="leading" secondItem="k6r-KY-JAB" secondAttribute="leading" id="zjV-sO-Fbz"/>
                         </constraints>
@@ -872,7 +850,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NLZ-Bd-BQN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3141.5384615384614" y="-776.30331753554503"/>
+            <point key="canvasLocation" x="2862" y="-776"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rdo-Sh-g9L">
@@ -890,14 +868,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fln-1u-pbT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2148" y="-776"/>
+            <point key="canvasLocation" x="1983" y="-776"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="96R-FX-ngO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yrb-PN-eqC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Qc3-94-nLb"/>
-
+                    <tabBarItem key="tabBarItem" title="" image="Home" id="Qc3-94-nLb"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="pfq-6b-l9P"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ttW-Y3-rR4">
@@ -911,15 +888,36 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5bK-CF-BTI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="217" y="-775"/>
+            <point key="canvasLocation" x="131" y="-776"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TwJ-lR-4s0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iLr-fg-Nkt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Profile" id="UQa-4D-fXX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="ILP-DC-wl3">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="N4l-E5-sES" kind="relationship" relationship="rootViewController" id="zgH-sO-CMh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRX-SA-MkJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="673"/>
         </scene>
     </scenes>
     <resources>
-
+        <image name="Bookmark" width="24" height="24"/>
+        <image name="Home" width="40" height="40"/>
         <image name="Logo" width="16" height="16"/>
         <image name="Message" width="20.333333969116211" height="20"/>
         <image name="Password" width="20" height="20"/>
         <image name="Profile" width="40" height="40"/>
+        <image name="Search" width="40" height="40"/>
         <image name="Show" width="20" height="20"/>
         <image name="arrow.up.and.person.rectangle.portrait" catalog="system" width="128" height="100"/>
         <image name="arrowLeft" width="24" height="24"/>
@@ -933,7 +931,6 @@
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -943,6 +940,5 @@
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-
     </resources>
 </document>
