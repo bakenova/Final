@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD38C44F28390460004F805A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38C44E28390460004F805A /* SearchViewController.swift */; };
+		AD38C45528391260004F805A /* MangaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38C45328391260004F805A /* MangaTableViewCell.swift */; };
+		AD38C45628391260004F805A /* MangaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD38C45428391260004F805A /* MangaTableViewCell.xib */; };
+		AD38C45828392775004F805A /* TextFieldPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38C45728392775004F805A /* TextFieldPadding.swift */; };
 		AD50A5B22838503800644B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5B12838503800644B50 /* AppDelegate.swift */; };
 		AD50A5B42838503800644B50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5B32838503800644B50 /* SceneDelegate.swift */; };
 		AD50A5B62838503800644B50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5B52838503800644B50 /* ViewController.swift */; };
@@ -30,6 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD38C44E28390460004F805A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AD38C45328391260004F805A /* MangaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaTableViewCell.swift; sourceTree = "<group>"; };
+		AD38C45428391260004F805A /* MangaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MangaTableViewCell.xib; sourceTree = "<group>"; };
+		AD38C45728392775004F805A /* TextFieldPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPadding.swift; sourceTree = "<group>"; };
 		AD50A5AE2838503800644B50 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD50A5B12838503800644B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD50A5B32838503800644B50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD38C4522839122C004F805A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD38C45328391260004F805A /* MangaTableViewCell.swift */,
+				AD38C45428391260004F805A /* MangaTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AD38C45928392780004F805A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD38C45728392775004F805A /* TextFieldPadding.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AD50A5A52838503800644B50 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +120,8 @@
 				AD50A5BA2838503A00644B50 /* Assets.xcassets */,
 				AD50A5BC2838503A00644B50 /* LaunchScreen.storyboard */,
 				AD50A5BF2838503A00644B50 /* Info.plist */,
+				AD38C4522839122C004F805A /* Cell */,
+				AD38C45928392780004F805A /* Extension */,
 			);
 			path = Final;
 			sourceTree = "<group>";
@@ -115,6 +142,7 @@
 				AD50A5D8283861F700644B50 /* SignUpViewController.swift */,
 				AD50A5DA2838620900644B50 /* MainViewController.swift */,
 				AD50A5F3283868AB00644B50 /* HomeViewController.swift */,
+				AD38C44E28390460004F805A /* SearchViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +242,7 @@
 				AD50A5C928385BDB00644B50 /* video5206550645464635064.mp4 in Resources */,
 				AD50A5B92838503800644B50 /* Main.storyboard in Resources */,
 				AD50A5ED283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib in Resources */,
+				AD38C45628391260004F805A /* MangaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +261,10 @@
 				AD50A5B22838503800644B50 /* AppDelegate.swift in Sources */,
 				AD50A5DB2838620900644B50 /* MainViewController.swift in Sources */,
 				AD50A5B42838503800644B50 /* SceneDelegate.swift in Sources */,
+				AD38C44F28390460004F805A /* SearchViewController.swift in Sources */,
+				AD38C45828392775004F805A /* TextFieldPadding.swift in Sources */,
 				AD50A5F12838680E00644B50 /* DishListTableViewCell.swift in Sources */,
+				AD38C45528391260004F805A /* MangaTableViewCell.swift in Sources */,
 				AD50A5D9283861F700644B50 /* SignUpViewController.swift in Sources */,
 				AD50A5E82838677100644B50 /* DishPortraitCollectionViewCell.swift in Sources */,
 				AD50A5F4283868AB00644B50 /* HomeViewController.swift in Sources */,
