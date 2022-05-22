@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676F835F283A527A0020F69A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676F835E283A527A0020F69A /* ForgotPasswordViewController.swift */; };
 		8DAAA10C247F9448F881F544 /* Pods_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1936E7FCD22B57A032044DF /* Pods_Final.framework */; };
 		AD38C44F28390460004F805A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38C44E28390460004F805A /* SearchViewController.swift */; };
 		AD38C45528391260004F805A /* MangaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD38C45328391260004F805A /* MangaTableViewCell.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676F835E283A527A0020F69A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		864A5FE82EFAA0039402FBBE /* Pods-Final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final.release.xcconfig"; path = "Target Support Files/Pods-Final/Pods-Final.release.xcconfig"; sourceTree = "<group>"; };
 		9FCF6C5FAE123CBD48BF6C0E /* Pods-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final.debug.xcconfig"; path = "Target Support Files/Pods-Final/Pods-Final.debug.xcconfig"; sourceTree = "<group>"; };
 		AD38C44E28390460004F805A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				AD50A5F3283868AB00644B50 /* HomeViewController.swift */,
 				AD38C44E28390460004F805A /* SearchViewController.swift */,
 				AD38C45A28395A66004F805A /* ProfileViewController.swift */,
+				676F835E283A527A0020F69A /* ForgotPasswordViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,7 +199,6 @@
 				9FCF6C5FAE123CBD48BF6C0E /* Pods-Final.debug.xcconfig */,
 				864A5FE82EFAA0039402FBBE /* Pods-Final.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +342,7 @@
 				AD50A5B42838503800644B50 /* SceneDelegate.swift in Sources */,
 				AD38C44F28390460004F805A /* SearchViewController.swift in Sources */,
 				AD38C45828392775004F805A /* TextFieldPadding.swift in Sources */,
+				676F835F283A527A0020F69A /* ForgotPasswordViewController.swift in Sources */,
 				AD50A5F12838680E00644B50 /* DishListTableViewCell.swift in Sources */,
 				AD38C45528391260004F805A /* MangaTableViewCell.swift in Sources */,
 				AD50A5D9283861F700644B50 /* SignUpViewController.swift in Sources */,

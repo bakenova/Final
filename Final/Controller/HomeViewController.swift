@@ -6,12 +6,20 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FirebaseDatabase
  
 class HomeViewController: UIViewController {
+    
+    let database = Database.database().reference()
+    var user = Auth.auth().currentUser
  
     @IBOutlet weak var categoryCollectionView: UICollectionView!
       @IBOutlet weak var popularCollectionView: UICollectionView!
       @IBOutlet weak var specialsCollectionView: UICollectionView!
+    
+    
     
     var categories: [DishCategory] = [
            .init(id: "1", name: "Doctor's Rebirth", image: UIImage(imageLiteralResourceName: "images") ),
@@ -43,6 +51,23 @@ class HomeViewController: UIViewController {
                 registerCells()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func logOut(_ sender: Any) {
+        do{
+            try! FirebaseAuth.Auth.auth().signOut()
+            let welcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
+            welcomeVC.modalPresentationStyle = .fullScreen
+            welcomeVC.modalTransitionStyle = .crossDissolve
+            self.present(welcomeVC, animated: true, completion: nil)
+        } catch{
+            print("User sign out failed")
+        }
+//        try! Auth.auth().signOut()
+//        let tableVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
+//        tableVC.modalPresentationStyle = .fullScreen
+//        self.present(tableVC, animated: true, completion: nil)
+    }
+    
     
     private func registerCells() {
            categoryCollectionView.register(UINib(nibName: CategoryCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: CategoryCollectionViewCell.identifier)
@@ -96,6 +121,8 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             navigationController? .pushViewController(controller, animated: true)
         }
     }
+    
+    
 }
  
 extension UIViewController {
@@ -109,6 +136,8 @@ extension UIViewController {
         return storyboard.instantiateViewController(identifier: identifier) as! Self
         
     }
+    
+    
 }
  
  

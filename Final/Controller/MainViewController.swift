@@ -6,8 +6,17 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainViewController: UIViewController {
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        if FirebaseAuth.Auth.auth().currentUser != nil {
+//            let tableVC = self.storyboard?.instantiateViewController(withIdentifier: "UITabBarController") as! UITabBarController
+//            tableVC.modalPresentationStyle = .fullScreen
+//            self.present(tableVC, animated: true, completion: nil)
+//        }
+//    }
 
     @IBOutlet weak var nextPressed: UIButton!
     
