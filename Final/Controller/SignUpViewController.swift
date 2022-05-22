@@ -44,8 +44,7 @@ class SignUpViewController: UIViewController {
     
     @IBAction func signUpPressed(_ sender: Any) {
         
-        guard let email = emailTF.text, !email.isEmpty,
-            let username = usernameTF.text, !email.isEmpty,
+        guard let email = emailTF.text, !email.isEmpty, !email.isEmpty,
               let password = passwordTF.text, !password.isEmpty else {
             let alert = UIAlertController(title: "The field is empty", message: "Please, fill the field", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler:{_ in}))
@@ -56,12 +55,14 @@ class SignUpViewController: UIViewController {
         }
         
         let object: [String: Any] = [
-            "email": emailTF.text!,
+            "username": emailTF.text!,
             "name": usernameTF.text!,
             "age": ageTF.text!
         ]
         
+        
         database.child("users").child("user_\(Int.random(in:0..<100))").setValue(object)
+        
         FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password, completion: {result, error in
             guard error == nil else {
             print("User creation failed")

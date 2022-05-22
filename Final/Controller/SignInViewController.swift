@@ -37,10 +37,7 @@ class SignInViewController: UIViewController {
     func showCreateAccount(email: String, passw: String){
         warningLbl.isHidden = false
         constraintMove.constant = 30
-//        let alert = UIAlertController(title: "The account does not exist", message: "", preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler:{_ in}))
-//
-//        present(alert, animated: true)
+
     }
     
     @IBAction func logInPressed(_ sender: UIButton) {
@@ -64,6 +61,13 @@ class SignInViewController: UIViewController {
             tableVC.modalPresentationStyle = .fullScreen
             self.present(tableVC, animated: true, completion: nil)
         })
+    }
+    
+    
+    @IBAction func forgotPassword(_ sender: Any) {
+        let tableVC = self.storyboard?.instantiateViewController(withIdentifier: "forgotPassword") as! ForgotPasswordViewController
+        tableVC.modalPresentationStyle = .fullScreen
+        self.present(tableVC, animated: true, completion: nil)
     }
     
 
