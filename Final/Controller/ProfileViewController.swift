@@ -23,25 +23,34 @@ class User {
 }
 
 class ProfileViewController: UIViewController {
-
-    @IBOutlet weak var profileImage: UIImageView!
-    @IBOutlet weak var usernameLbl: UILabel!
-    @IBOutlet weak var infoLbl: UILabel!
-    
-    @IBOutlet weak var tableView: UITableView!
     
     let database = Database.database().reference()
     var ref:DatabaseReference!
     var users = [User]()
     
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var usernameLbl: UILabel!
+    @IBOutlet weak var infoLbl: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+    
+    @IBAction func logOutPressed(_ sender: Any) {
+        do{
+            try FirebaseAuth.Auth.auth().signOut()
+            let welcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+            welcomeVC.modalPresentationStyle = .fullScreen
+            welcomeVC.modalTransitionStyle = .crossDissolve
+            self.present(welcomeVC, animated: true, completion: nil)
+        } catch{
+            print("User sign out failed")
+        }
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         LoadCalls()
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
     func LoadCalls() {
@@ -60,34 +69,6 @@ class ProfileViewController: UIViewController {
             
             self.usernameLbl.text = userr.username
             self.infoLbl.text = userr.name + ", " + userr.age + " y.o"
-            
-            
-            })
-    }
-    
-    @IBAction func logOutPressed(_ sender: Any) {
-        do{
-            try FirebaseAuth.Auth.auth().signOut()
-            let welcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
-            welcomeVC.modalPresentationStyle = .fullScreen
-            welcomeVC.modalTransitionStyle = .crossDissolve
-            self.present(welcomeVC, animated: true, completion: nil)
-        } catch{
-            print("User sign out failed")
-        }
+        })
     }
 }
-
-
-
-/*extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
-    
-    
-}*/

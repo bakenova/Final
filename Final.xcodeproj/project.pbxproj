@@ -25,13 +25,13 @@
 		AD50A5D7283861E200644B50 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5D6283861E200644B50 /* SignInViewController.swift */; };
 		AD50A5D9283861F700644B50 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5D8283861F700644B50 /* SignUpViewController.swift */; };
 		AD50A5DB2838620900644B50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5DA2838620900644B50 /* MainViewController.swift */; };
-		AD50A5E0283864AB00644B50 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5DF283864AB00644B50 /* DishDetailViewController.swift */; };
-		AD50A5E4283865DE00644B50 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */; };
-		AD50A5E5283865DE00644B50 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5E3283865DE00644B50 /* CategoryCollectionViewCell.xib */; };
-		AD50A5E82838677100644B50 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5E62838677100644B50 /* DishPortraitCollectionViewCell.swift */; };
-		AD50A5E92838677100644B50 /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5E72838677100644B50 /* DishPortraitCollectionViewCell.xib */; };
-		AD50A5EC283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */; };
-		AD50A5ED283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */; };
+		AD50A5E0283864AB00644B50 /* MangaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5DF283864AB00644B50 /* MangaDetailViewController.swift */; };
+		AD50A5E4283865DE00644B50 /* MustReadViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5E2283865DE00644B50 /* MustReadViewCell.swift */; };
+		AD50A5E5283865DE00644B50 /* MustReadCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5E3283865DE00644B50 /* MustReadCollectionViewCell.xib */; };
+		AD50A5E82838677100644B50 /* PopularsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5E62838677100644B50 /* PopularsCollectionViewCell.swift */; };
+		AD50A5E92838677100644B50 /* PopularsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5E72838677100644B50 /* PopularsCollectionViewCell.xib */; };
+		AD50A5EC283867AA00644B50 /* CompletedMangaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5EA283867AA00644B50 /* CompletedMangaCollectionViewCell.swift */; };
+		AD50A5ED283867AA00644B50 /* CompletedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5EB283867AA00644B50 /* CompletedCollectionViewCell.xib */; };
 		AD50A5F12838680E00644B50 /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5EF2838680E00644B50 /* DishListTableViewCell.swift */; };
 		AD50A5F22838680E00644B50 /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD50A5F02838680E00644B50 /* DishListTableViewCell.xib */; };
 		AD50A5F4283868AB00644B50 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50A5F3283868AB00644B50 /* HomeViewController.swift */; };
@@ -59,13 +59,13 @@
 		AD50A5D6283861E200644B50 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AD50A5D8283861F700644B50 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AD50A5DA2838620900644B50 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		AD50A5DF283864AB00644B50 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
-		AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
-		AD50A5E3283865DE00644B50 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
-		AD50A5E62838677100644B50 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
-		AD50A5E72838677100644B50 /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
-		AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIshLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
-		AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DIshLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD50A5DF283864AB00644B50 /* MangaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaDetailViewController.swift; sourceTree = "<group>"; };
+		AD50A5E2283865DE00644B50 /* MustReadViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MustReadViewCell.swift; sourceTree = "<group>"; };
+		AD50A5E3283865DE00644B50 /* MustReadCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MustReadCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD50A5E62838677100644B50 /* PopularsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD50A5E72838677100644B50 /* PopularsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularsCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD50A5EA283867AA00644B50 /* CompletedMangaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedMangaCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD50A5EB283867AA00644B50 /* CompletedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompletedCollectionViewCell.xib; sourceTree = "<group>"; };
 		AD50A5EF2838680E00644B50 /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
 		AD50A5F02838680E00644B50 /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
 		AD50A5F3283868AB00644B50 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		AD50A5DE2838646C00644B50 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				AD50A5DF283864AB00644B50 /* DishDetailViewController.swift */,
+				AD50A5DF283864AB00644B50 /* MangaDetailViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -174,12 +174,12 @@
 		AD50A5E12838654F00644B50 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */,
-				AD50A5E3283865DE00644B50 /* CategoryCollectionViewCell.xib */,
-				AD50A5E62838677100644B50 /* DishPortraitCollectionViewCell.swift */,
-				AD50A5E72838677100644B50 /* DishPortraitCollectionViewCell.xib */,
-				AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */,
-				AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */,
+				AD50A5E2283865DE00644B50 /* MustReadViewCell.swift */,
+				AD50A5E3283865DE00644B50 /* MustReadCollectionViewCell.xib */,
+				AD50A5E62838677100644B50 /* PopularsCollectionViewCell.swift */,
+				AD50A5E72838677100644B50 /* PopularsCollectionViewCell.xib */,
+				AD50A5EA283867AA00644B50 /* CompletedMangaCollectionViewCell.swift */,
+				AD50A5EB283867AA00644B50 /* CompletedCollectionViewCell.xib */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -271,13 +271,13 @@
 			files = (
 				AD50A5BE2838503A00644B50 /* LaunchScreen.storyboard in Resources */,
 				AD50A5F22838680E00644B50 /* DishListTableViewCell.xib in Resources */,
-				AD50A5E92838677100644B50 /* DishPortraitCollectionViewCell.xib in Resources */,
-				AD50A5E5283865DE00644B50 /* CategoryCollectionViewCell.xib in Resources */,
+				AD50A5E92838677100644B50 /* PopularsCollectionViewCell.xib in Resources */,
+				AD50A5E5283865DE00644B50 /* MustReadCollectionViewCell.xib in Resources */,
 				AD50A5BB2838503A00644B50 /* Assets.xcassets in Resources */,
 				AD50A5C928385BDB00644B50 /* video5206550645464635064.mp4 in Resources */,
 				AD50A5B92838503800644B50 /* Main.storyboard in Resources */,
 				AD38C45D283966C1004F805A /* GoogleService-Info.plist in Resources */,
-				AD50A5ED283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib in Resources */,
+				AD50A5ED283867AA00644B50 /* CompletedCollectionViewCell.xib in Resources */,
 				AD38C45628391260004F805A /* MangaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,10 +331,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD50A5EC283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift in Sources */,
-				AD50A5E4283865DE00644B50 /* CategoryCollectionViewCell.swift in Sources */,
+				AD50A5EC283867AA00644B50 /* CompletedMangaCollectionViewCell.swift in Sources */,
+				AD50A5E4283865DE00644B50 /* MustReadViewCell.swift in Sources */,
 				AD50A5D7283861E200644B50 /* SignInViewController.swift in Sources */,
-				AD50A5E0283864AB00644B50 /* DishDetailViewController.swift in Sources */,
+				AD50A5E0283864AB00644B50 /* MangaDetailViewController.swift in Sources */,
 				AD50A5B62838503800644B50 /* ViewController.swift in Sources */,
 				AD50A5B22838503800644B50 /* AppDelegate.swift in Sources */,
 				AD38C45B28395A66004F805A /* ProfileViewController.swift in Sources */,
@@ -346,7 +346,7 @@
 				AD50A5F12838680E00644B50 /* DishListTableViewCell.swift in Sources */,
 				AD38C45528391260004F805A /* MangaTableViewCell.swift in Sources */,
 				AD50A5D9283861F700644B50 /* SignUpViewController.swift in Sources */,
-				AD50A5E82838677100644B50 /* DishPortraitCollectionViewCell.swift in Sources */,
+				AD50A5E82838677100644B50 /* PopularsCollectionViewCell.swift in Sources */,
 				AD50A5F4283868AB00644B50 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

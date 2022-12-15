@@ -15,7 +15,7 @@ class DishListTableViewCell: UITableViewCell {
       @IBOutlet weak var titleLbl: UILabel!
       @IBOutlet weak var descriptionLbl: UILabel!
       
-      func setup(dish: Dish) {
+      func setup(dish: CompletedManga) {
         dishImageView.image = dish.image
           titleLbl.text = dish.name
           descriptionLbl.text = dish.description
@@ -45,5 +45,5 @@ struct Order{
     let id: String?
     let name: String?
     let image: UIImage
-    let dish: Dish?
+    let dish: CompletedManga?
 }

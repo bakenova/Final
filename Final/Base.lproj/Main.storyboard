@@ -1095,10 +1095,10 @@
             </objects>
             <point key="canvasLocation" x="1060" y="-776"/>
         </scene>
-        <!--Dish Detail View Controller-->
+        <!--Manga Detail View Controller-->
         <scene sceneID="kTq-yp-ZFb">
             <objects>
-                <viewController storyboardIdentifier="DishDetailViewController" id="GZa-9I-Ci7" customClass="DishDetailViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DishDetailViewController" id="GZa-9I-Ci7" customClass="MangaDetailViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="on8-Cc-oiK">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1227,11 +1227,11 @@
                     <navigationItem key="navigationItem" id="Wbp-tZ-dm5"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="caloriesLbl" destination="EEZ-mj-Mmt" id="rW6-Mb-ITg"/>
                         <outlet property="descriptionLbl" destination="mV5-4J-JB0" id="LJW-zB-Tel"/>
-                        <outlet property="dishImageView" destination="b8A-pG-MQA" id="NVR-41-oac"/>
-                        <outlet property="dplaceOrder" destination="6jr-Ip-X9e" id="0zB-jw-phS"/>
                         <outlet property="genre" destination="25D-dE-Yjf" id="hu6-Ob-nNI"/>
+                        <outlet property="mangaImageView" destination="b8A-pG-MQA" id="NVR-41-oac"/>
+                        <outlet property="readButton" destination="6jr-Ip-X9e" id="0zB-jw-phS"/>
+                        <outlet property="statusLbl" destination="EEZ-mj-Mmt" id="rW6-Mb-ITg"/>
                         <outlet property="titleLbl" destination="bnA-M6-2rh" id="1BX-Qd-Opb"/>
                     </connections>
                 </viewController>
