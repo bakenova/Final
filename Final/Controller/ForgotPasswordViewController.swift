@@ -22,7 +22,7 @@ class ForgotPasswordViewController: UIViewController {
         let auth = Auth.auth()
               
               auth.sendPasswordReset(withEmail: emailTF.text!) { (error) in
-                  if let error = error {
+                  if error != nil {
 //                      let alert = Service.createAlertController(title: "Error", message: error.localizedDescription)
                     let alert = UIAlertController(title: "Error", message: "There is no user record corresponding to this identifier. The user may have been deleted", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler:{_ in}))

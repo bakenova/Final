@@ -122,8 +122,8 @@
 		AD50A5B02838503800644B50 /* Final */ = {
 			isa = PBXGroup;
 			children = (
-				AD50A5EE283867E000644B50 /* CstmVws */,
-				AD50A5E12838654F00644B50 /* CllctnVwClls */,
+				AD50A5EE283867E000644B50 /* CustomViews */,
+				AD50A5E12838654F00644B50 /* CollectionViewCells */,
 				AD50A5DE2838646C00644B50 /* views */,
 				AD50A5C728385BAD00644B50 /* Video */,
 				AD50A5B12838503800644B50 /* AppDelegate.swift */,
@@ -171,7 +171,7 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		AD50A5E12838654F00644B50 /* CllctnVwClls */ = {
+		AD50A5E12838654F00644B50 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
 				AD50A5E2283865DE00644B50 /* CategoryCollectionViewCell.swift */,
@@ -181,16 +181,16 @@
 				AD50A5EA283867AA00644B50 /* DIshLandscapeCollectionViewCell.swift */,
 				AD50A5EB283867AA00644B50 /* DIshLandscapeCollectionViewCell.xib */,
 			);
-			path = CllctnVwClls;
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
-		AD50A5EE283867E000644B50 /* CstmVws */ = {
+		AD50A5EE283867E000644B50 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
 				AD50A5EF2838680E00644B50 /* DishListTableViewCell.swift */,
 				AD50A5F02838680E00644B50 /* DishListTableViewCell.xib */,
 			);
-			path = CstmVws;
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		CB7CEE9C9CA9F7119BD8C11D /* Pods */ = {

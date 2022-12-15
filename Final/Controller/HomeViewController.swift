@@ -62,10 +62,6 @@ class HomeViewController: UIViewController {
         } catch{
             print("User sign out failed")
         }
-//        try! Auth.auth().signOut()
-//        let tableVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
-//        tableVC.modalPresentationStyle = .fullScreen
-//        self.present(tableVC, animated: true, completion: nil)
     }
     
     
